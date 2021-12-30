@@ -1,0 +1,7 @@
+*.egg-info/
+.env.local
+.idea/
+.vs/
+.vscode/
+.pytest_cache/
+data/

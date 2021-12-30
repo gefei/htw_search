@@ -1,0 +1,50 @@
+name: htw
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - mhoelzl
+  - defaults
+dependencies:
+  - python[version='>=3.9']
+  - cuda
+  - cudnn
+  - black
+  - click
+  - colorama
+  - datasets
+  - fastapi
+  - ftfy
+  - graphviz
+  - ipykernel
+  - mypy
+  - orjson
+  - jinja2
+  - joblib
+  - jupyter
+  - jupytext
+  - matplotlib
+  - nbex
+  - nltk
+  - numba
+  - numpy
+  - pandas
+  - pip
+  - pytest
+  - python-build
+  - python-dotenv
+  - pytorch
+  - sacremoses
+  - scikit-learn
+  - scipy
+  - seaborn
+  - sentence-transformers
+  - sentencepiece
+  - spacy[version='>=3']
+  - syntok
+  - streamlit
+  - tensorboard
+  - transformers
+  - typer
+  - uvicorn
+  
