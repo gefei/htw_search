@@ -5,3 +5,5 @@
 .vscode/
 .pytest_cache/
 data/
+dist/
+**/__pycache__/

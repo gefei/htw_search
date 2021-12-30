@@ -34,7 +34,5 @@ def dump_paragraph_embeddings_for_bi_encoder(embeddings_and_paragraphs):
     )
 
 
-def load_paragraph_embeddings_for_bi_encoder() -> tuple[
-    list[torch.Tensor], list[Paragraph]
-]:
+def load_paragraph_embeddings_for_bi_encoder() -> tuple[torch.Tensor, list[Paragraph]]:
     return joblib.load(get_path_for_pickle_file("bi_encoder_paragraph_embeddings.pkl"))
