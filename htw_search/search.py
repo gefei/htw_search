@@ -76,7 +76,7 @@ def remove_duplicates(
     for result in candidate_results:
         top = result.text_on_page
         text = get_text(top)
-        if text == last_text and top.page == last_page:
+        if top.page == last_page:
             continue
         last_text, last_page = text, top.page
         results.append(result)
